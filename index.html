@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Manuel Bandeira Plus+</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #151515;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        .principal {
+            background: linear-gradient(135deg, #ff4b2b, #ff416c);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container__titulo {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .container__botao {
+            background-color: #ff416c;
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            margin: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .container__botao:hover {
+            background-color: #ff4b2b;
+        }
+
+        .botao_secundario {
+            background-color: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+        }
+
+        .container__aviso {
+            font-size: 0.875rem;
+            margin-top: 1rem;
+            color: #ccc;
+        }
+
+        .secundario {
+            padding: 4rem 2rem;
+            background-color: #222;
+        }
+
+        .descricao__titulo {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .descricao__texto {
+            color: #bbb;
+            line-height: 1.6;
+        }
+
+        .secundario__imagem {
+            max-width: 100%;
+            margin-top: 2rem;
+        }
+
+        .dispositivos {
+            padding: 2rem;
+            background-color: #151515;
+        }
+
+        .dispositivos__titulo {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .lista__item {
+            font-size: 1.25rem;
+            color: #fff;
+            margin-top: 0.5rem;
+        }
+
+        .rodape {
+            background-color: #101010;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .rodape__lista {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .rodape__lista li {
+            margin: 0 1rem;
+        }
+
+        .rodape__lista a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .rodape__texto {
+            color: #777;
+            margin-top: 1rem;
+            font-size: 0.875rem;
+        }
+
+        /* Responsivo */
+        @media (max-width: 768px) {
+            .container__titulo {
+                font-size: 1.75rem;
+            }
+
+            .descricao__titulo {
+                font-size: 1.5rem;
+            }
+
+            .dispositivos__titulo {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="principal container">
+        <div class="container__caixa">
+            <h1 class="container__titulo">Com o Combo+, você pode aproveitar o Manuel Bandeira Plus+ e o Sala do Futuro por um preço único.</h1>
+            <img src="cois.png" alt="O combo+ é a junção do Manuel Bandeira Plus+ e o Sala do Futuro" class="container__imagem">
+            <a href="https://saladofuturo.educacao.sp.gov.br/" class="container__botao">Assine por 12x de R$ 69,99*</a>
+            <a href="https://www.google.com/maps/place/Escola+estadual+Manuel+Bandeira/@-23.4111458,-46.7569928,15z/data=!4m6!3m5!1s0x94cefca37edb0e13:0x2b540c39138cafa3!8m2!3d-23.4111458!4d-46.7569928!16s%2Fg%2F1tj22pk4?entry=ttu&g_ep=EgoyMDI0MDkyMi4wIKXMDSoASAFQAw%3D%3D" class="container__botao botao_secundario">Assinar somente o Manuel Bandeira Plus+</a>
+            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <img src="kapakapa.jpg" alt="Um monitor e um celular com o Manuel Bandeira Plus+ aberto" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Assista do seu jeito</h2>
+            <p class="descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de cursos não para de crescer.</p>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__texto">
+                Só o Combo+ oferece Manuel Bandeira Plus+ e Sala do Futuro juntos para você ter acesso a cursos de diversas áreas da tecnologia e aprender inglês ou espanhol, onde e como quiser.
+            </p>
+            <a href="https://saladofuturo.educacao.sp.gov.br/" class="container__botao secundario__botao">Assine o Combo+</a>
+        </div>
+        <img src="unnamed.png" alt="Tela do Manuel Bandeira Plus+ e Sala do Futuro" class="secundario__imagem">
+    </section>
+
+    <section class="container secundario">
+        <img src="hq720.jpg" alt="Notebook com a página do curso HTML5 e CSS3 do Manuel Bandeira Plus+ aberta" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Baixe seus cursos</h2>
+            <p class="descricao__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.</p>
+        </div>
+    </section>
+    
+    <section class="dispositivos">
+        <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="dispositivos__lista">
+            <li>
+                <img src="tv.png" alt="Ícone de televisão">
+                <h3 class="lista__item">TV</h3>
+            </li>
+            <li>
+                <img src="computador.png" alt="Ícone de computador">
+                <h3 class="lista__item">Computador</h3>
+            </li>
+            <li>
+                <img src="celular.png" alt="Ícone de celular">
+                <h3 class="lista__item">Celular</h3>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="rodape">
+        <img src="Logo.png" alt="Manuel Bandeira Plus+" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link"><a href="#">Idioma</a></li>
+            <li class="lista__link"><a href="#">Dispositivos compatíveis</a></li>
+            <li class="lista__link"><a href="#">Contrato de assinatura</a></li>
+            <li class="lista__link"><a href="#">Política de privacidade</a></li>
+            <li class="lista__link"><a href="#">Proteção de dados no Brasil</a></li>
+            <li class="lista__link"><a href="#">Anúncios personalizados</a></li>
+            <li class="lista__link"><a href="#">Ajuda</a></li>
+        </ul>
+        <p class="rodape__texto">® 2021 Manuel Bandeira Plus+. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
